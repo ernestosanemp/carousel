@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otono</li>
+        <li>Invierno</li>
+    </ul>
+    <script>
+        var hola='hola mundo';
+        let hello='hellow world;'
+        console.log(hola);
+        console.log(hello);
+        console.log(window);
+        console.log(window.hola);
+        console.log(window.hello)
+        var musica='rock';
+        console.log('variable musica antes del bloque',musica);
+
+        {
+            let musica='Pop';
+            console.log('variable musica en el bloque',musica)
+        }
+        console.log('variable musica despues del bloque',musica)
+
+        let objeto={
+            nombre:'Ernesto',
+            edad:59
+
+        }
+        console.log(objeto);
+        const arreglo=['blanco','negro','azul'];
+        console.log(arreglo);
+        arreglo.push('verde');
+        objeto.correo='ernestosan@gmail.com';
+        console.log(arreglo);
+        console.log(objeto);
+        let nombre='Ernesto';
+        let apellido='Santibanez';
+        let saludo=`Hola mi nombre es ${nombre} ${apellido}`;
+        console.log(saludo);
+let ul2=`
+    <ul>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otono</li>
+        <li>Invierno</li>
+    </ul>`;
+    console.log(ul2);
+    const jon={
+        nombre:"Jon",
+        apellido:"san",
+        edad:35,
+        pasatiempos:["correr","hacer ejercicio","dar clases"],
+        soltero:false,
+        contacto:{
+            email:"ernestosanemp",
+            twiter:"@sanernest"
+        },
+        saludar:function(){
+            console.log("hola my firend")
+        }
+    }
+    console.log(jon);
+    jon.saludar();
+    </script>
+</body>
+</html>
